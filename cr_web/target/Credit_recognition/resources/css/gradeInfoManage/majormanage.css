@@ -1,0 +1,13 @@
+/*majorManage.jsp*/
+body{
+     width: 1350px;
+}
+.i1{ width:100px; }
+.l1{ width:100px; }
+.div_table{ padding:0 5%;}
+.layui-table-cell .layui-form-checkbox[lay-skin="primary"]{
+     top: 50%;
+     transform: translateY(-50%);
+}
+
+

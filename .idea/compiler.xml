@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cr_dao" />
+        <module name="cr_util" />
+        <module name="cr_entity" />
+        <module name="cr_service" />
+        <module name="cr_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cr_dao" target="1.8" />
+      <module name="cr_entity" target="1.8" />
+      <module name="cr_service" target="1.8" />
+      <module name="cr_util" target="1.8" />
+      <module name="cr_web" target="1.8" />
+      <module name="Credit_recognition_parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+/*creditRecognition_input.jsp*/
+.div_body{
+	width: 800px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	padding-top: 20px;
+}
+.layui-table-cell .layui-form-checkbox[lay-skin="primary"]{
+     top: 50%;
+     transform: translateY(-50%);
+}
+.div_button{
+	text-align: center;
+}

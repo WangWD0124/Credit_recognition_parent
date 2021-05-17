@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.Credit_recognition_parent</groupId>
+    <artifactId>Credit_recognition_parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>cr_web</artifactId>
+  <packaging>war</packaging>
+  <name>cr_web Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+    
+  <dependencies>
+  <!-- 声明本模块依赖的子模块 -->
+    <dependency>
+        <groupId>com.Credit_recognition_parent</groupId>
+        <artifactId>cr_service</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <type>jar</type>
+    </dependency>
+    
+  <!-- 声明本模块依赖 -->
+    <dependency>
+         <groupId>org.webjars</groupId>
+		 <artifactId>layui</artifactId>
+    </dependency>
+    <dependency>
+		 <groupId>org.webjars</groupId>
+		 <artifactId>jquery</artifactId>
+    </dependency>
+    <dependency>
+         <groupId>javax.servlet</groupId>
+         <artifactId>servlet-api</artifactId>
+    </dependency>
+    <dependency>
+	    <groupId>com.google.code.gson</groupId>
+	    <artifactId>gson</artifactId>
+	</dependency>
+  </dependencies>
+  
+  <build>
+    <finalName>Credit_recognition</finalName>
+  </build>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Credit_recognition_parent.iml" filepath="$PROJECT_DIR$/Credit_recognition_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cr_dao/cr_dao.iml" filepath="$PROJECT_DIR$/cr_dao/cr_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cr_entity/cr_entity.iml" filepath="$PROJECT_DIR$/cr_entity/cr_entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cr_service/cr_service.iml" filepath="$PROJECT_DIR$/cr_service/cr_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cr_util/cr_util.iml" filepath="$PROJECT_DIR$/cr_util/cr_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cr_web/cr_web.iml" filepath="$PROJECT_DIR$/cr_web/cr_web.iml" />
+    </modules>
+  </component>
+</project>

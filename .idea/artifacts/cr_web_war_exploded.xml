@@ -1,0 +1,42 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cr_web:war exploded">
+    <output-path>$PROJECT_DIR$/cr_web/target/Credit_recognition</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>cr_web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cr_web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="cr_service-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="cr_service" />
+          </element>
+          <element id="archive" name="cr_dao-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="cr_dao" />
+          </element>
+          <element id="archive" name="cr_util-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="cr_util" />
+          </element>
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.21" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+          <element id="archive" name="cr_entity-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="cr_entity" />
+          </element>
+          <element id="library" level="project" name="Maven: org.webjars:layui:2.5.7" />
+          <element id="library" level="project" name="Maven: org.webjars:jquery:3.1.1" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.6" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/cr_web/target/Credit_recognition/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="cr_web/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,4 @@
+.layui-table-cell .layui-form-checkbox[lay-skin="primary"]{
+    top: 50%;
+    transform: translateY(-50%);
+}

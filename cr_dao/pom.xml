@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.Credit_recognition_parent</groupId>
+    <artifactId>Credit_recognition_parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>cr_dao</artifactId>
+  <name>cr_dao</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <dependencies>
+  <!-- 声明本模块依赖的子模块 -->
+    <dependency>
+        <groupId>com.Credit_recognition_parent</groupId>
+        <artifactId>cr_util</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <type>jar</type>
+    </dependency>
+    <dependency>
+        <groupId>com.Credit_recognition_parent</groupId>
+        <artifactId>cr_entity</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <type>jar</type>
+    </dependency>
+    
+  <!-- 声明本模块依赖 -->
+    <dependency>
+      	 <groupId>junit</groupId>
+	     <artifactId>junit</artifactId>
+	     <scope>test</scope>
+    </dependency>
+    <dependency>
+	    <groupId>com.google.code.gson</groupId>
+	    <artifactId>gson</artifactId>
+	</dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cr_web:war">
+    <output-path>$PROJECT_DIR$/cr_web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cr_web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Credit_recognition.war">
+      <element id="artifact" artifact-name="cr_web:war exploded" />
+    </root>
+  </artifact>
+</component>

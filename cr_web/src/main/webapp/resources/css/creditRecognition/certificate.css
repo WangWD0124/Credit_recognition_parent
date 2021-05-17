@@ -1,0 +1,41 @@
+.div_body{
+    width: 800px;
+    height: 1100px;
+    position: absolute;
+    margin: 20px auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.A4{
+    height: 900px;
+    padding: 30px;
+    margin-bottom: 50px;
+
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=135, Strength=5);
+    background-color: #eee;
+    -moz-box-shadow:2px 2px 5px #969696;
+    -webkit-box-shadow:2px 2px 5px #969696;
+    box-shadow:10px 10px 10px #969696;
+}
+.table_header,.table_foot{
+    width: 100%;
+    margin-top: 50px;
+    line-height: 50px;
+}
+.layui-table-cell {
+    line-height: 20px;
+    height: auto;
+    text-align: center;
+}
+.td1{
+    width: 180px;
+    text-align: right;
+}
+.td2{
+    text-align: center;
+}
+.foot{
+    text-align: center;
+}
